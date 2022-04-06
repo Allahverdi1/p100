@@ -2,38 +2,42 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ConsoleApp7
+namespace ConsoleApp12
 {
     internal class Library
     {
         List<Book> books = new List<Book>();
+        public int Id { get; set; }
+        public string Name { get; set; }
 
-        public List<Book> FilterByPrice(int minPrice, int maxPrice)
+        public void AddBook(Book book)
         {
-            return books.FindAll(filter => filter.Price > minPrice && filter.Price < maxPrice);
+            books.Add(book);
         }
 
-        public List<Book> FilterByGenre(string genre)
+        public Book GetBookById(int? id)
         {
-            return books.FindAll(filter => filter.genre == Genre);
-
-        }
-        public Book FindBookByNo(int no)
-        {
-            foreach (var item in books)
+            if (id == null)
             {
-                if (item.No == no)
-                {
-                    return books.FindAll(find => find.no == books);
-                }
-
-
-
+                throw new NullReferenceException("Null-dir");
             }
-            return null;
+            return books.Find(Book => Book.Id == id);
 
         }
+
+        public void RemoveBook(int id)
+        {
+            var result = books.Find(Book => Book.Id == id);
+            if (id == null)
+            {
+                throw new NullReferenceException("null-dir");
+            }
+            books.Remove(result);
+
+
+        }
+
     }
 
-      
+
 }
