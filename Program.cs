@@ -1,35 +1,26 @@
 ﻿using System;
-using System.IO;
+using System.Collections.Generic;
 
-namespace ConsoleApp12
+namespace ConsoleApp13
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            string path = @"C:\Program Files\Common Files\System\";
-            Directory.CreateDirectory(path + "Files");
-            File.Create(path + @" Files\files.json");
 
-            if (!File.Exists(path + @"Files\files.json"))
-            {
-                var result = File.Create(path + "Files\files.json");
-                result.Close();
-            }
+            List<Student> students = new List<Student>();
 
-            string path = @"C:\Program Files\Common Files\System\";
-            bool check = true;
             do
             {
                 Console.WriteLine("Menu");
-                Console.WriteLine("1. Add Book");
-                Console.WriteLine("2. Get Book By Id");
-                Console.WriteLine("3. Remove Book ");
-                Console.WriteLine("0. Quit");
-
-                string Choise = Console.ReadLine();
-
-            } while (check);
+                Console.WriteLine("1.Telebe elave et");
+                Console.WriteLine("2.Telebeye imtahan elave et");
+                Console.WriteLine("3.Telebenin bir imtahan balina bax");
+                Console.WriteLine("4.Telebenin butun imtahanlarini goster");
+                Console.WriteLine("5.Telebenin imtahan ortalamasini goster");
+                Console.WriteLine("6.Telebeden imtahan sil");
+                Console.WriteLine("0.Program bitdi");
+            } while (true);
 
         }
     }
