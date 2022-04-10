@@ -1,20 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Models
+﻿namespace Services
 {
-    internal class Order
+    public class Order
     {
-        private static int _no;
-        public int No { get; }
-        public Order()
-        {
-            _no++;
-            No = _no;
-        }
-       
-        public int TotalPrice { get; set; }
-        public DateTime date { get; set; }
+        public int? No { get; internal set; }
     }
 }
