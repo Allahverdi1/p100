@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SifarishSystem", "SifarishSystem\SifarishSystem.csproj", "{469D4429-751F-447B-B1ED-BCA58DECBB9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{50850D91-1A66-4EDE-B583-E93DED6EF935}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{0C9CB330-DF62-4F03-91C1-DE0FD61BCA58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{469D4429-751F-447B-B1ED-BCA58DECBB9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{469D4429-751F-447B-B1ED-BCA58DECBB9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{469D4429-751F-447B-B1ED-BCA58DECBB9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{469D4429-751F-447B-B1ED-BCA58DECBB9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50850D91-1A66-4EDE-B583-E93DED6EF935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50850D91-1A66-4EDE-B583-E93DED6EF935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50850D91-1A66-4EDE-B583-E93DED6EF935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50850D91-1A66-4EDE-B583-E93DED6EF935}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C9CB330-DF62-4F03-91C1-DE0FD61BCA58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C9CB330-DF62-4F03-91C1-DE0FD61BCA58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C9CB330-DF62-4F03-91C1-DE0FD61BCA58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C9CB330-DF62-4F03-91C1-DE0FD61BCA58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16CEC49D-B5AD-48C1-BB97-F60DCB4945A3}
+	EndGlobalSection
+EndGlobal
