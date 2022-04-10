@@ -4,17 +4,17 @@ using System.Text;
 
 namespace Models
 {
-    internal class Order
+    internal class MenuItem
     {
         private static int _no;
         public int No { get; }
-        public Order()
+        public MenuItem()
         {
             _no++;
             No = _no;
         }
-       
-        public int TotalPrice { get; set; }
-        public DateTime date { get; set; }
+        public string Name { get; set; }
+        public double Price { get; set; }
+        public Catagory catagory { get; set; }
     }
 }
