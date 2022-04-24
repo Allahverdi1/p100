@@ -1,0 +1,66 @@
+.sablon{
+    width: 800px;
+    height: auto;
+    margin: 30px auto;
+}
+.sablon .logo {
+    width: 200px;
+    height: 100px;
+    float:left;
+    background-color:grey;
+    
+
+}
+.sablon .logo h1{
+    margin: 22px auto;
+    padding: 10px
+   
+}
+.sablon .banner{
+    width: 600px;
+    height: 100px;
+    float: left;
+    background-color: rgb(43, 36, 36);
+    
+}
+.sablon .banner h1{
+    margin: 22px auto;
+    padding: 10px;
+}
+.sablon .bolum1{
+    width: 330px;
+    height: 400px;
+    float: left;
+    margin: 10px 0 0 0;
+    background-color: rgb(194, 191, 191);
+}
+.sablon .bolum1 h1{
+    margin: 3px auto;
+    padding: 10px
+}
+.sablon .bolum2{
+    width: 330px;
+    height: 400px;
+    float: left;
+    margin: 10px 0 0 10px;
+    background-color: rgb(194, 191, 191);
+}
+.sablon .bolum2 h1{
+    margin: 3px auto;
+    padding: 10px
+}
+.sablon .bolum3{
+    width: 120px;
+    height: 400px;
+    float: left;
+    margin: 10px 0 0 10px;
+    background-color:rgb(138, 134, 134);
+}
+.sablon .bolum3 h1{
+    margin: 3px auto;
+    padding: 10px
+}
+
+
+
+
