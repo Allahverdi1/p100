@@ -1,0 +1,29 @@
+div h3 {
+    background-color: azure;
+    height: 150px;
+}
+    
+.about{
+    width: auto;
+    margin: 0% auto;
+}
+.about img{
+    display: block;
+    width: 250px;
+    height: 50px;
+    margin: 0 auto;
+    border: 1%;
+}
+.about img p{
+    height: 100px;
+}
+ 
+.socials{
+    margin-left: 70%;
+}
+.socials .social-item{
+    font-size: 20px;
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
