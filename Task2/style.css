@@ -1,0 +1,139 @@
+.sablon{
+    width: 800px;
+    height: auto;
+    margin: 30px auto;
+}
+.sablon .logo{
+    width: 140px;
+    height: 70px;
+    display: inline-block;
+    background-color:grey;
+}
+.sablon .logo h2{
+    margin: 22px 50px;
+    padding: 10px
+}
+.sablon .banner{
+    width: 460px;
+    height: 70px;
+    display: inline-block;
+    background-color:grey;
+    margin: auto 90px
+}
+.sablon .banner h2{
+    margin: 22px 200px;
+    padding: 10px;
+}
+
+.sablon .bolum1{
+    width: 674px;
+    height: 40px;
+    display: inline-block;
+    background-color: grey;
+}
+.sablon .bolum1{
+    margin: 10px 0px;
+    padding: 10px;
+}
+.sablon .bolum1 h2
+{
+    margin: 10px 230px;
+    padding: 10px
+
+}
+.sablon .bolum2{
+    width: 285px;
+    height: 200px;
+    display: inline-block;
+    margin: 20px 0  0 0;
+    background-color:grey
+}
+.sablon .bolum2 h2
+{
+    margin: 50px 50px;
+    padding: 10px
+
+}
+.sablon .bolum3{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    margin: -110px 0 10px 10px;
+    background-color: grey;
+
+}
+.sablon .bolum3 h2{
+    margin: 30px 30px;
+    padding: 7px;
+}
+.sablon .bolum4{
+    width: 180px;
+    height: 180px;
+    display: inline-block;
+    margin: -10px 0 10px 10px;
+    background-color: grey;
+}
+.sablon .bolum4 h2{
+    margin: 30px 30px;
+    padding: 5px;
+}
+.sablon .bolum5{
+    width: 285px;
+    height: 200px;
+    display: inline-block;
+    margin: 1px 0;
+    background-color:grey
+}
+.sabblon .bolum5 h2{
+    margin: 50px 50px;
+    padding: 10px
+}
+
+.sablon .bolum6{
+    width: 200px;
+    height: 380px;
+    display: inline-block;
+    margin: 10px 0 0 10px;
+    background-color: grey;
+}
+.sablon .bolum6 h2{
+    padding: 10px;
+}
+
+.sablon .bolum7{
+    width: 180px;
+    height: 200px;
+    display: inline-block;
+    margin: -40px 0 10px 10px;
+    background-color: grey;
+}
+.sablon .bolum7 h2{
+    padding: 10px;
+}
+.sablon .bolum8{
+    width: 285px;
+    height: 200px;
+    display:inline-block;
+    margin: 10px 0 0 0;
+    background-color:grey
+}
+.sablon .bolum8 h2{
+    padding: 10px;
+}
+.sablon .bolum9{
+    display: inline-block;
+    width: 130px;
+    height: 150px;
+    background-color: grey;
+    margin: 10px 0 10px 0;
+}
+.sablon .bolum9 h2{
+    padding: 10px;
+}
+.sablon .bolum10{
+    width: 800px;
+    height: 100px;
+    background-color: grey;
+    display: inline-block;
+    margin: 10px 0 0 0;
+}
