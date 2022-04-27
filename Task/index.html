@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./grid.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -13,38 +13,325 @@
 </head>
 
 <body>
-    <div class="about">
+    <header>
+        <nav>
 
-        <div class="about">
-            <h3>Nizami kucesi 203B,AF Business house,2-ci mertebe| Tel +994 12 310 0113|Mobil Whatsapp +994 050 444 2633</h3>
+            <div class="logo">
+                <a href="">
+                    <img src="./logo.svg" alt="Directory Logo">
+                </a>
+                <form action="">
+                    <label for="search">Search</label>
+                    <input type="text" id="search" name="search">
+                </form>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                    <li>
+                        <a href="">Template</a>
+                    </li>
+                    <li>
+                        <a href="">Contact</a>
+                    </li>
+                    <li>
+                        <a href="">Docs</a>
+                    </li>
+                    <li>
+                        <a href="">Sign In</a>
+                    </li>
+                    <li>
+                        <a href="">Sign Up</a>
+                    </li>
+                    <button type="button" class="button">Add A Listing</button>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="intro">
+            <div class="container">
+                <div class="intro-content">
+                    <div class="intro-img">
+                        <img src="./photo-1501621965065-c6e1cf6b53e2.webp" alt="">
+                    </div>
+                    <div class="intro-description">
+                        <p>The Best Holiday Experience</p>
+                    </div>
+                    <div class="intro-title">
+                        <h1>Stay Like A Local</h1>
+                    </div>
+                    <form action="">
+                        <label for="searching">What are you searching for?</label>
+                        <input type="text" id="searching" name="searching">
+                        <label for="location">Location</label>
+                        <input type="text" id="location" name="location">
+                        <label for="categories">Categories</label>
+                        <input type="text" id="categories" name="categories">
+                        <button type="button">Search</button>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+        <section id="intro-1">
+            <div class="row">
+                <div class="title">
+                    <h4>ONE-OF-A-KIND VACATION RENTALS</h4>
+                    <h1>Booking with us is easy</h1>
+                </div>
+                <div class="col-4">
+                    <i class="fa-solid fa-map"></i>
+                    <h1>Find the perfect rental</h1>
+                    <p>
+                        One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his
+                        bed in
+                    </p>
+                </div>
+                <div class="col-4">
+                    <i class="fa-solid fa-credit-card"></i>
+                    <h1>Book with confidence</h1>
+                    <p>
+                        The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs,
+                        pit
+                    </p>
+                </div>
+                <div class="col-4">
+                    <i class="fa-solid fa-heart"></i>
+                    <h1>Enjoy your vacation</h1>
+                    <p>
+                        His room, a proper human room although a little too small, lay peacefully between its four
+                        familiar
+                    </p>
+                </div>
+                <section class="intro2">
+                    <div class="row">
+                        <div class="intro2-title">
+                            <h2>STAY AND EAT LIKE A LOCAL</h2>
+                            <h1>Our guides</h1>
+                            <li><a href="">See all guides</a></li>
+                        </div>
+                        <div class="col-10">
+                            <div class="col-2">
+                                <img src="./77416935.webp" alt="">
+                                <h1>New York</h1>
+                                <p>The Big Apple</p>
+                            </div>
+                            <div class="col-2">
+                                <img src="./france-paris-eiffel-tower.jpg" alt="">
+                                <h1>Paris</h1>
+                                <p>Artist capital of Europe</p>
+                            </div>
+                            <div class="col-2">
+                                <img src="./download.jfif" alt="">
+                                <h1>Barcelona</h1>
+                                <p>Dali,Gaudi,Barrio,Gotico</p>
+                            </div>
+                            <div class="col-2">
+                                <img src="./Prague-Czechia.jpg" alt="">
+                                <h1>Prague</h1>
+                                <p>City of hundred towers</p>
+                            </div>
+                            <div class="col-2">
+                                <img src="./77416935.webp" alt="">
+                                <h1>New York</h1>
+                                <p>The Big Apple</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="intro3">
+                    <div class="row">
+                        <div class="intro3-title">
+                            <h2>HURRY UP, THESE ARE EXPIRING SOON.</h2>
+                            <h1></h1>
+                        </div>
+                        <div class="col-3">
+                            <img src="./photo-1488805990569-3c9e1d76d51c.webp" alt="">
+                            <h1>Modern,Well-appointed room</h1>
+                            <p>private room</p>
+                            <span>80$ per night</span>
+                        </div>
+                        <div class="col-3">
+                            <img src="./photo-1426122402199-be02db90eb90.webp" alt="">
+                            <h1>Cute Quirky Garden apt,NYC adjacent</h1>
+                            <p>entire apartment</p>
+                            <span>121$ per night</span>
+                        </div>
+                        <div class="col-3">
+                            <img src="./photo-1512917774080-9991f1c4c750.jpg" alt="">
+                            <h1>Modern apt-Vibrant Neighborhood!</h1>
+                            <p>Entire apartment</p>
+                            <span>75$ per night</span>
+                        </div>
+                        <div class="col-3">
+                            <img src="./photo-1494526585095-c41746248156.webp" alt="">
+                            <h1>Sunny Private Studio-Apartment</h1>
+                            <p>Shared room</p>
+                            <span>93$ per night</span>
+                        </div>
+                    </div>
+                </section>
+                <section class="intro4">
+                    <div class="row">
+                        <div class="col-12">
+                            <img src="./Home-JI_130520_RHSWisley_108-600x450.jpg" alt="">
+                            <h1>Ready for your next holidays?</h1>
+                            <button type="button">Get Started</button>
+                        </div>
+                    </div>
+                </section>
+                <section class="intro5">
+                    <div class="row">
+                        <div class="intro5-title">
+                            <h4>TESTIMONIALS</h4>
+                            <h1>Our dear customers said about us</h1>
+                            <div class="col-6">
+                                <i class="fa-solid fa-apostrophe"></i>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, explicabo rem modi
+                                    laborum distinctio numquam?</p>
+                                <h1>Jessica Watson</h1>
+                            </div>
+                            <div class="col-6">
+                                <i class="fa-solid fa-apostrophe"></i>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas qui ad repellat, odio
+                                    ipsum quisquam?</p>
+                                <H1>Jessica Watson</H1>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="intro6">
+                    <div class="row">
+                        <div class="intro6-title">
+                            <h3>STORIES FROM AROUND THE GLOBE</h3>
+                            <h1>From our travel blog</h1>
+                            <li><a href="">See all articles</a></li>
+                        </div>
+                        <div class="col-4">
+                            <img src="./photo-1467987506553-8f3916508521.webp" alt="">
+                            <p>Travel</p>
+                            <h2>Escape the city Today</h2>
+                            <p>January16,2016</p>
+                            <p>Is am hastily invited settled at limited civilly fortune me. Really spring in extent an
+                                by. Judge but built party world...</p>
+                            <button type="button">Read more</button>
+                        </div>
+                        <div class="col-4">
+                            <img src="./photo-1512917774080-9991f1c4c750.jpg" alt="">
+                            <p>Travel</p>
+                            <h2>Autumn fashion tips and tricks</h2>
+                            <p>January16,2016</p>
+                            <p>Pellentesque habitant morbi tristique senectus. Vestibulum tortor quam, feugiat vitae,
+                                ultricies ege...</p>
+                            <button type="button">Read more</button>
+                        </div>
+                        <div class="col-4">
+                            <img src="./photo-1522771739844-6a9f6d5f14af.webp" alt="">
+                            <p>Living</p>
+                            <h2>Newest photo apps</h2>
+                            <p>January16,2016</p>
+                            <p>ellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+                                egestas. Vestibu...</p>
+                            <button type="button">Read more</button>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="row">
+            <div class="10">
+                <div class="col-1">
+                    <img src="" alt="">
+                </div>
+                <div class="col-1">
+                    <img src="" alt="">
+                </div>
+                <div class="col-1">
+                    <img src="" alt="">
+                </div>
+                <div class="col-1">
+                    <img src="" alt="">
+                </div>
+                <div class="col-1">
+                    <img src="" alt="">
+                </div>
+                <div class="col-1">
+                    <img src="" alt="">
+                </div>
+                <div class="col-1">
+                    <img src="" alt="">
+                </div>
+                <div class="col-1">
+                    <img src="" alt="">
+                </div>
+                <div class="col-1">
+                    <img src="" alt="">
+                </div>
+                <div class="col-1">
+                    <img src="" alt="">
+                </div>
+            </div>
         </div>
-        
-        
-        <div class="img">
-
-            <p>@2020 Code Academy Butun Muellif huquqlari qorunur</p>
-            <img src="./logo-footer.png" alt="logo">
+        <div class="logo">
+            <h3>Directory</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
         </div>
-
         <ul class="socials">
             <li class="social-item">
-                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-                </li>
-                <li class="social-item">
-                    <a href=""><i class="fa-brands fa-instagram"></i></a>
-                </li>
-                <li class="social-item">
-                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-                </li>
-                <li class="social-item">
-                    <a href=""><i class="fa-brands fa-twitter"></i></a>
-                </li>
-                <li class="social-item">
-                    <a href=""><i class="fa-brands fa-youtube"></i></a>
-                </li>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li class="social-item">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li class="social-item">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li class="social-item">
+                <a href=""><i class="fa-brands fa-vimeo"></i></a>
+            </li>
+            <li class="social-item">
+                <a href=""><i class="fa-brands fa-pinterest"></i></a>
+            </li>
             </li>
         </ul>
-    </div>
+        <div class="menu">
+            <div class="rental">
+                <h1>Rentals</h1>
+            </div>
+            <div class="menu-item">
+                <li><a href="">Rooms</a></li>
+                <li><a href="">Map on top</a></li>
+                <li><a href="">Side map</a></li>
+                <li><a href="">No map</a></li>
+                <li><a href="">Room Detail</a></li>
+            </div>
+        </div>
+        <div class="page-menu">
+            <div class="page">
+                <h1>Pages</h1>
+            </div>
+            <div class="page-item">
+                <li><a href="">Comparison</a></li>
+                <li><a href="">Team</a></li>
+                <li><a href="">Contact</a></li>
+            </div>
+        </div>
+        <div class="form">
+            <h1>DAILY OFFERS & DISCOUNTS</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At itaque temporibus.</p>
+            <form action="">
+                <label for="email">Email-address</label>
+                <input type="text" id="email" name="email">
+            </form>
+            <button type="button">Submit</button>
+        </div>
+    </footer>
 
 
 </body>
