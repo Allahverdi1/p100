@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    background-color: #f9f9f9;
+}
+.mb-3 .form-label{
+    text-align: center;
+}
+
+#addBtn{
+    width: 200px;
+    height: 30px;
+}
+h4{
+   margin: 10 130px;
+}
